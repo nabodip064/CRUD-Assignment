@@ -30,13 +30,13 @@ This is the presentation Layer, having Views
 # Demo Images
 
 ## Agent List
-![GitHub Logo](/Images/CRUD-List.PNG)
+![GitHub Logo](/Images/CRUD-List.png)
 
 ## Add
-![GitHub Logo](/Images/CRUD_ADD.PNG)
+![GitHub Logo](/Images/CRUD_ADD.png)
 
 ## Edit
-![GitHub Logo](/Images/CRUD-Edit.PNG)
+![GitHub Logo](/Images/CRUD-Edit.png)
 
 ## Delete
-![GitHub Logo](/Images/CRUD-Delete.PNG)
+![GitHub Logo](/Images/CRUD-Delete.png)
