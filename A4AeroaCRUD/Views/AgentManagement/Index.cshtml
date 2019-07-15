@@ -1,0 +1,47 @@
+﻿@model IEnumerable<CRUD.DAL.Models.AgentInfoModel>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Agent Information List</h2>
+
+<hr />
+@using (Html.BeginForm("SearchAgent", "AgentManagement", FormMethod.Post, new { @id = "frmSearch", @class = "form-horizontal" }))
+{
+    <div class="row">
+        <div class="col-md-2">
+            @Html.ActionLink("Add New", "AddEditAgentInfo", null, new { @class = "btn btn-info" })
+        </div>
+        <div class="col-md-3">
+            <input type="text" placeholder="Code" name="AgentCode" class="form-control" />
+        </div>
+        <div class="col-md-3">
+            <input type="text" placeholder="Name" name="AgentName" class="form-control" />
+        </div>
+        <div class="col-md-3">
+            @Html.DropDownList("MarkUpPlan", new SelectList(ViewBag.MarkUpPlanList, "MarkUpPlanId", "MarkUpPlanName"), "All Markup Plans", new { @class = "form-control" })
+        </div>
+        <input type="submit" value="Search" class="btn btn-success" />
+    </div>
+}
+<br />
+<div class="result">
+    @Html.Partial("AgentList", Model)
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <script type="text/javascript">
+        $("#frmSearch").on("submit", function (ev) {
+            ev.preventDefault();
+            var url = '@Url.Action("SearchAgent", "AgentManagement")';
+            var data = $(this).serializeArray();
+            console.log(data);
+            $.post(url, data, function (res) {
+                $(".result").html(res);
+            });
+        });
+    </script>
+}

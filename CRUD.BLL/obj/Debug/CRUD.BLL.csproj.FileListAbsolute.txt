@@ -1,0 +1,16 @@
+c:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\bin\Debug\CRUD.BLL.dll
+c:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\bin\Debug\CRUD.BLL.pdb
+c:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\obj\Debug\CRUD.BLL.csprojResolveAssemblyReference.cache
+c:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\obj\Debug\CRUD.BLL.dll
+c:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\obj\Debug\CRUD.BLL.pdb
+c:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\bin\Debug\CRUD.DAL.dll
+c:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\bin\Debug\CRUD.DAL.pdb
+C:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\bin\Debug\EntityFramework.dll
+C:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\bin\Debug\EntityFramework.xml
+C:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\bin\Debug\CRUD.BLL.dll.config
+C:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\MaxPro\Documents\Visual Studio 2015\Projects\A4AeroaCRUD\CRUD.BLL\bin\Debug\EntityFramework.SqlServer.xml
