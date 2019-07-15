@@ -109,6 +109,7 @@
                     <h6 class="dropdown-header">Other Pages:</h6>
                     <a class="dropdown-item" href="404.html">404 Page</a>
                     <a class="dropdown-item" href="blank.html">Blank Page</a>
+                    <a class="dropdown-item" href="AgentManagement">Agent</a>
                 </div>
             </li>
             <li class="nav-item">
@@ -121,6 +122,13 @@
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Tables</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tables.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Tables</span>
+                    
                 </a>
             </li>
         </ul>
@@ -179,17 +187,6 @@
     <script src="~/Content/vendor/jquery/jquery.min.js"></script>
     <script src="~/Content/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="../../Scripts/datepicker/datepicker.min.js" type="text/javascript"></script>
-    <script src="../../Scripts/datepicker/i18n/datepicker.en.js" type="text/javascript"></script>
-    <script type="text/javascript">
-    $("#JoiningDatePicker").datepicker({
-                timepicker: false,
-                language: 'en',
-                dateFormat: 'dd/mm/yyyy',
-                autoClose: true
-            });
-    </script>
-    @RenderSection("scripts", required: false)
     <!-- Bootstrap core JavaScript-->
 
     <!-- Core plugin JavaScript-->
@@ -207,6 +204,17 @@
     <script src="~/Content/js/demo/datatables-demo.js"></script>
     
 
+    <script src="../../Scripts/datepicker/datepicker.min.js" type="text/javascript"></script>
+    <script src="../../Scripts/datepicker/i18n/datepicker.en.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $("#JoiningDatePicker").datepicker({
+                timepicker: false,
+                language: 'en',
+                dateFormat: 'dd/mm/yyyy',
+                autoClose: true
+            });
+    </script>
+    @RenderSection("scripts", required: false)
 
 </body>
 
